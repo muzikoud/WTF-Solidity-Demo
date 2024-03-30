@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.21;
 
-import "@chainlink/contracts/src/v0.8/interfaces/VRFCoordinatorV2Interface.sol";
-import "@chainlink/contracts/src/v0.8/VRFConsumerBaseV2.sol";
+import "@chainlink/contracts/src/v0.8/vrf/interfaces/VRFCoordinatorV2Interface.sol";
+import "@chainlink/contracts/src/v0.8/vrf/VRFConsumerBaseV2.sol";
 
 contract RandomNumberConsumer is VRFConsumerBaseV2{
 
@@ -56,8 +56,9 @@ contract RandomNumberConsumer is VRFConsumerBaseV2{
      * VRF合约的回调函数，验证随机数有效之后会自动被调用
      * 消耗随机数的逻辑写在这里
      */
-    function fulfillRandomWords(uint256 requestId, uint256[] memory s_randomWords) internal override {
+    function fulfillRandomWords(uint256 _requestId, uint256[] memory s_randomWords) internal override {
         randomWords = s_randomWords;
+        requestId = _requestId;
     }
 
 }

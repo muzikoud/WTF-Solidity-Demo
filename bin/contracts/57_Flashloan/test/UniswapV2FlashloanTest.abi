@@ -1,0 +1,1 @@
+[{"inputs":[],"name":"setUp","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[],"name":"testFlashloan","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[],"name":"testFlashloanFail","outputs":[],"stateMutability":"nonpayable","type":"function"}]

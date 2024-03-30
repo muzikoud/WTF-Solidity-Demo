@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 // By 0xAA
 pragma solidity ^0.8.21;
-import "openzeppelin-contracts/token/ERC721/ERC721.sol";
+import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 
 contract TimeManipulation is ERC721 {
     uint256 totalSupply;

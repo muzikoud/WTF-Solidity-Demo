@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.21;
 
-import "https://github.com/AmazingAng/WTFSolidity/blob/main/34_ERC721/ERC721.sol";
-import "@chainlink/contracts/src/v0.8/interfaces/VRFCoordinatorV2Interface.sol";
-import "@chainlink/contracts/src/v0.8/VRFConsumerBaseV2.sol";
+import "../34_ERC721/ERC721.sol";
+import "@chainlink/contracts/src/v0.8/vrf/interfaces/VRFCoordinatorV2Interface.sol";
+import "@chainlink/contracts/src/v0.8/vrf/VRFConsumerBaseV2.sol";
 
 contract Random is ERC721, VRFConsumerBaseV2{
     // NFT相关
@@ -101,8 +101,8 @@ contract Random is ERC721, VRFConsumerBaseV2{
      * VRF的回调函数，由VRF Coordinator调用
      * 消耗随机数的逻辑写在本函数中
      */
-    function fulfillRandomWords(uint256 requestId, uint256[] memory s_randomWords) internal override{
-        address sender = requestToSender[requestId]; // 从requestToSender中获取minter用户地址
+    function fulfillRandomWords(uint256 _requestId, uint256[] memory s_randomWords) internal override{
+        address sender = requestToSender[_requestId]; // 从requestToSender中获取minter用户地址
         uint256 tokenId = pickRandomUniqueId(s_randomWords[0]); // 利用VRF返回的随机数生成tokenId
         _mint(sender, tokenId);
     }
