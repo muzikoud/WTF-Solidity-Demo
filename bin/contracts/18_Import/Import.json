@@ -1,0 +1,358 @@
+{
+    "contractName": "Import",
+    "abi": [
+        {
+            "inputs": [],
+            "name": "test",
+            "outputs": [],
+            "stateMutability": "nonpayable",
+            "type": "function"
+        }
+    ],
+    "metadata": "{\"compiler\":{\"version\":\"0.8.24+commit.e11b9ed9\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"test\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"d:/solidity/project/WTF-Solidity-Demo/contracts/18_Import/Import.sol\":\"Import\"},\"evmVersion\":\"shanghai\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"d:/solidity/project/WTF-Solidity-Demo/contracts/18_Import/Import.sol\":{\"keccak256\":\"0xe3cf58ba7e649a25525a961ea57a615b1ffccc28578cf222429830dfd382ded8\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://ca51119495a682656da4c16d89da2524089dc452a7b2f88821818e0da5cc5416\",\"dweb:/ipfs/QmTAAj6u6km9zHorcFrVvkhRiC7HdRvoPsXLqxwaG5b3AM\"]},\"d:/solidity/project/WTF-Solidity-Demo/contracts/18_Import/Yeye.sol\":{\"keccak256\":\"0xcd7ad7ce2c7db19d4bcbde7d95773b5cbfa1937cceceae2e9a40c7f90c8ab3d1\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://c726fb456d791ee039b6a7b679a2ff1c4178be48a717bbfc79e3cb938123a86a\",\"dweb:/ipfs/QmcCREwRpb9aCvKbwveLqqHSBdY3oC4qMsTEoMAXWXE7kg\"]},\"d:/solidity/project/WTF-Solidity-Demo/node_modules/@openzeppelin/contracts/access/Ownable.sol\":{\"keccak256\":\"0xff6d0bb2e285473e5311d9d3caacb525ae3538a80758c10649a4d61029b017bb\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://8ed324d3920bb545059d66ab97d43e43ee85fd3bd52e03e401f020afb0b120f6\",\"dweb:/ipfs/QmfEckWLmZkDDcoWrkEvMWhms66xwTLff9DDhegYpvHo1a\"]},\"d:/solidity/project/WTF-Solidity-Demo/node_modules/@openzeppelin/contracts/utils/Address.sol\":{\"keccak256\":\"0xaf28a975a78550e45f65e559a3ad6a5ad43b9b8a37366999abd1b7084eb70721\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://b7bd24e224f67f65bfadf85dc2929fa965456bb2415478bd0125471b5ce35245\",\"dweb:/ipfs/QmRaydGr8BTHs1kvaZfsNU69pKzUAGFrvABn1KiRSbE51y\"]},\"d:/solidity/project/WTF-Solidity-Demo/node_modules/@openzeppelin/contracts/utils/Context.sol\":{\"keccak256\":\"0x493033a8d1b176a037b2cc6a04dad01a5c157722049bbecf632ca876224dd4b2\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://6a708e8a5bdb1011c2c381c9a5cfd8a9a956d7d0a9dc1bd8bcdaf52f76ef2f12\",\"dweb:/ipfs/Qmax9WHBnVsZP46ZxEMNRQpLQnrdE4dK8LehML1Py8FowF\"]}},\"version\":1}",
+    "bytecode": "60806040526040516100109061005a565b604051809103905ff080158015610029573d5f803e3d5ffd5b505f80546001600160a01b0319166001600160a01b0392909216919091179055348015610054575f80fd5b50610066565b60e78061012f83390190565b60bd806100725f395ff3fe6080604052348015600e575f80fd5b50600436106026575f3560e01c8063f8a8fd6d14602a575b5f80fd5b60306032565b005b5f805460408051631b8750a160e11b815290516001600160a01b039092169263370ea1429260048084019382900301818387803b1580156070575f80fd5b505af11580156081573d5f803e3d5ffd5b5050505056fea2646970667358221220a1e926c77ea4a9fb2cc1052ff5dacbdb85ea187db1e95b3dba841b111f5d62e964736f6c63430008180033608060405234801561000f575f80fd5b5060cb8061001c5f395ff3fe6080604052348015600e575f80fd5b5060043610603a575f3560e01c80630ca21e9c14603e578063370ea14214603e578063a4ece52c14603e575b5f80fd5b60446046565b005b7fcf34ef537ac33ee1ac626ca1587a0a7e8e51561e5514f8cb36afa1c5102b3bab604051608b906020808252600490820152635965796560e01b604082015260600190565b60405180910390a156fea2646970667358221220bed7fd4e6ad46ed036b8cac7d6f5ac4fdd44d1d0f03d441157599694a23a301464736f6c63430008180033",
+    "deployedBytecode": "6080604052348015600e575f80fd5b50600436106026575f3560e01c8063f8a8fd6d14602a575b5f80fd5b60306032565b005b5f805460408051631b8750a160e11b815290516001600160a01b039092169263370ea1429260048084019382900301818387803b1580156070575f80fd5b505af11580156081573d5f803e3d5ffd5b5050505056fea2646970667358221220a1e926c77ea4a9fb2cc1052ff5dacbdb85ea187db1e95b3dba841b111f5d62e964736f6c63430008180033",
+    "sourceMap": "574:241:0:-:0;;;697:10;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;685:22:0;;;-1:-1:-1;;;;;;685:22:0;-1:-1:-1;;;;;685:22:0;;;;;;;;;;574:241;;;;;;;;;;;;;;;;;;;;:::o;:::-;;;;;;;",
+    "deployedSourceMap": "574:241:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;759:53;;;:::i;:::-;;;794:4;;;:10;;;-1:-1:-1;;;794:10:0;;;;-1:-1:-1;;;;;794:4:0;;;;:8;;:10;;;;;;;;;;:4;;:10;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;759:53::o",
+    "sourcePath": "d:/solidity/project/WTF-Solidity-Demo/contracts/18_Import/Import.sol",
+    "compiler": {
+        "name": "solc",
+        "version": "0.8.24+commit.e11b9ed9"
+    },
+    "ast": {
+        "absolutePath": "d:/solidity/project/WTF-Solidity-Demo/contracts/18_Import/Import.sol",
+        "exportedSymbols": {
+            "Address": [
+                458
+            ],
+            "Context": [
+                488
+            ],
+            "Import": [
+                26
+            ],
+            "Ownable": [
+                205
+            ],
+            "Yeye": [
+                57
+            ]
+        },
+        "id": 27,
+        "license": "MIT",
+        "nodeType": "SourceUnit",
+        "nodes": [
+            {
+                "id": 1,
+                "literals": [
+                    "solidity",
+                    "^",
+                    "0.8",
+                    ".21"
+                ],
+                "nodeType": "PragmaDirective",
+                "src": "33:24:0"
+            },
+            {
+                "absolutePath": "d:/solidity/project/WTF-Solidity-Demo/contracts/18_Import/Yeye.sol",
+                "file": "./Yeye.sol",
+                "id": 2,
+                "nameLocation": "-1:-1:-1",
+                "nodeType": "ImportDirective",
+                "scope": 27,
+                "sourceUnit": 58,
+                "src": "96:20:0",
+                "symbolAliases": [],
+                "unitAlias": ""
+            },
+            {
+                "absolutePath": "d:/solidity/project/WTF-Solidity-Demo/contracts/18_Import/Yeye.sol",
+                "file": "./Yeye.sol",
+                "id": 4,
+                "nameLocation": "-1:-1:-1",
+                "nodeType": "ImportDirective",
+                "scope": 27,
+                "sourceUnit": 58,
+                "src": "164:32:0",
+                "symbolAliases": [
+                    {
+                        "foreign": {
+                            "id": 3,
+                            "name": "Yeye",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 57,
+                            "src": "172:4:0",
+                            "typeDescriptions": {}
+                        },
+                        "nameLocation": "-1:-1:-1"
+                    }
+                ],
+                "unitAlias": ""
+            },
+            {
+                "absolutePath": "d:/solidity/project/WTF-Solidity-Demo/node_modules/@openzeppelin/contracts/access/Ownable.sol",
+                "file": "d:/solidity/project/WTF-Solidity-Demo/node_modules/@openzeppelin/contracts/access/Ownable.sol",
+                "id": 5,
+                "nameLocation": "-1:-1:-1",
+                "nodeType": "ImportDirective",
+                "scope": 27,
+                "sourceUnit": 206,
+                "src": "359:103:0",
+                "symbolAliases": [],
+                "unitAlias": ""
+            },
+            {
+                "absolutePath": "d:/solidity/project/WTF-Solidity-Demo/node_modules/@openzeppelin/contracts/utils/Address.sol",
+                "file": "d:/solidity/project/WTF-Solidity-Demo/node_modules/@openzeppelin/contracts/utils/Address.sol",
+                "id": 6,
+                "nameLocation": "-1:-1:-1",
+                "nodeType": "ImportDirective",
+                "scope": 27,
+                "sourceUnit": 459,
+                "src": "466:102:0",
+                "symbolAliases": [],
+                "unitAlias": ""
+            },
+            {
+                "abstract": false,
+                "baseContracts": [],
+                "canonicalName": "Import",
+                "contractDependencies": [
+                    57
+                ],
+                "contractKind": "contract",
+                "fullyImplemented": true,
+                "id": 26,
+                "linearizedBaseContracts": [
+                    26
+                ],
+                "name": "Import",
+                "nameLocation": "583:6:0",
+                "nodeType": "ContractDefinition",
+                "nodes": [
+                    {
+                        "global": false,
+                        "id": 9,
+                        "libraryName": {
+                            "id": 7,
+                            "name": "Address",
+                            "nameLocations": [
+                                "634:7:0"
+                            ],
+                            "nodeType": "IdentifierPath",
+                            "referencedDeclaration": 458,
+                            "src": "634:7:0"
+                        },
+                        "nodeType": "UsingForDirective",
+                        "src": "628:26:0",
+                        "typeName": {
+                            "id": 8,
+                            "name": "address",
+                            "nodeType": "ElementaryTypeName",
+                            "src": "646:7:0",
+                            "stateMutability": "nonpayable",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_address",
+                                "typeString": "address"
+                            }
+                        }
+                    },
+                    {
+                        "constant": false,
+                        "id": 16,
+                        "mutability": "mutable",
+                        "name": "yeye",
+                        "nameLocation": "690:4:0",
+                        "nodeType": "VariableDeclaration",
+                        "scope": 26,
+                        "src": "685:22:0",
+                        "stateVariable": true,
+                        "storageLocation": "default",
+                        "typeDescriptions": {
+                            "typeIdentifier": "t_contract$_Yeye_$57",
+                            "typeString": "contract Yeye"
+                        },
+                        "typeName": {
+                            "id": 11,
+                            "nodeType": "UserDefinedTypeName",
+                            "pathNode": {
+                                "id": 10,
+                                "name": "Yeye",
+                                "nameLocations": [
+                                    "685:4:0"
+                                ],
+                                "nodeType": "IdentifierPath",
+                                "referencedDeclaration": 57,
+                                "src": "685:4:0"
+                            },
+                            "referencedDeclaration": 57,
+                            "src": "685:4:0",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_contract$_Yeye_$57",
+                                "typeString": "contract Yeye"
+                            }
+                        },
+                        "value": {
+                            "arguments": [],
+                            "expression": {
+                                "argumentTypes": [],
+                                "id": 14,
+                                "isConstant": false,
+                                "isLValue": false,
+                                "isPure": false,
+                                "lValueRequested": false,
+                                "nodeType": "NewExpression",
+                                "src": "697:8:0",
+                                "typeDescriptions": {
+                                    "typeIdentifier": "t_function_creation_nonpayable$__$returns$_t_contract$_Yeye_$57_$",
+                                    "typeString": "function () returns (contract Yeye)"
+                                },
+                                "typeName": {
+                                    "id": 13,
+                                    "nodeType": "UserDefinedTypeName",
+                                    "pathNode": {
+                                        "id": 12,
+                                        "name": "Yeye",
+                                        "nameLocations": [
+                                            "701:4:0"
+                                        ],
+                                        "nodeType": "IdentifierPath",
+                                        "referencedDeclaration": 57,
+                                        "src": "701:4:0"
+                                    },
+                                    "referencedDeclaration": 57,
+                                    "src": "701:4:0",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_contract$_Yeye_$57",
+                                        "typeString": "contract Yeye"
+                                    }
+                                }
+                            },
+                            "id": 15,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": false,
+                            "kind": "functionCall",
+                            "lValueRequested": false,
+                            "nameLocations": [],
+                            "names": [],
+                            "nodeType": "FunctionCall",
+                            "src": "697:10:0",
+                            "tryCall": false,
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_contract$_Yeye_$57",
+                                "typeString": "contract Yeye"
+                            }
+                        },
+                        "visibility": "internal"
+                    },
+                    {
+                        "body": {
+                            "id": 24,
+                            "nodeType": "Block",
+                            "src": "783:29:0",
+                            "statements": [
+                                {
+                                    "expression": {
+                                        "arguments": [],
+                                        "expression": {
+                                            "argumentTypes": [],
+                                            "expression": {
+                                                "id": 19,
+                                                "name": "yeye",
+                                                "nodeType": "Identifier",
+                                                "overloadedDeclarations": [],
+                                                "referencedDeclaration": 16,
+                                                "src": "794:4:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_contract$_Yeye_$57",
+                                                    "typeString": "contract Yeye"
+                                                }
+                                            },
+                                            "id": 21,
+                                            "isConstant": false,
+                                            "isLValue": false,
+                                            "isPure": false,
+                                            "lValueRequested": false,
+                                            "memberLocation": "799:3:0",
+                                            "memberName": "hip",
+                                            "nodeType": "MemberAccess",
+                                            "referencedDeclaration": 40,
+                                            "src": "794:8:0",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_function_external_nonpayable$__$returns$__$",
+                                                "typeString": "function () external"
+                                            }
+                                        },
+                                        "id": 22,
+                                        "isConstant": false,
+                                        "isLValue": false,
+                                        "isPure": false,
+                                        "kind": "functionCall",
+                                        "lValueRequested": false,
+                                        "nameLocations": [],
+                                        "names": [],
+                                        "nodeType": "FunctionCall",
+                                        "src": "794:10:0",
+                                        "tryCall": false,
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_tuple$__$",
+                                            "typeString": "tuple()"
+                                        }
+                                    },
+                                    "id": 23,
+                                    "nodeType": "ExpressionStatement",
+                                    "src": "794:10:0"
+                                }
+                            ]
+                        },
+                        "functionSelector": "f8a8fd6d",
+                        "id": 25,
+                        "implemented": true,
+                        "kind": "function",
+                        "modifiers": [],
+                        "name": "test",
+                        "nameLocation": "768:4:0",
+                        "nodeType": "FunctionDefinition",
+                        "parameters": {
+                            "id": 17,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "772:2:0"
+                        },
+                        "returnParameters": {
+                            "id": 18,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "783:0:0"
+                        },
+                        "scope": 26,
+                        "src": "759:53:0",
+                        "stateMutability": "nonpayable",
+                        "virtual": false,
+                        "visibility": "external"
+                    }
+                ],
+                "scope": 27,
+                "src": "574:241:0",
+                "usedErrors": [],
+                "usedEvents": []
+            }
+        ],
+        "src": "33:784:0"
+    },
+    "functionHashes": {
+        "test()": "f8a8fd6d"
+    },
+    "gasEstimates": {
+        "creation": {
+            "codeDepositCost": "37800",
+            "executionCost": "infinite",
+            "totalCost": "infinite"
+        },
+        "external": {
+            "test()": "infinite"
+        }
+    }
+}
